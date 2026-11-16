@@ -1,0 +1,9 @@
+COMO USAR
+1. No Visual Studio: Novo projeto > ".NET MAUI App" com o nome  EventosApp  (assim os namespaces coincidem).
+2. Copie a pasta Models/ e a pasta Views/ para dentro do projeto.
+3. Substitua AppShell.xaml e App.xaml.cs pelos arquivos deste pacote
+   (apague o MainPage.xaml/.cs do template, se quiser).
+4. Execute (Windows Machine, Android Emulator, etc.).
+
+Se o App.xaml.cs do seu template já tiver outra estrutura, mantenha apenas o bloco de
+cultura pt-BR no construtor e o CreateWindow retornando new Window(new AppShell()).
